@@ -11,8 +11,12 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Sovra Nations",
+  title: "sovra",
   description: "Create, join, and manage virtual nations on a digital map of the United States",
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

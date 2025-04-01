@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAuth } from '../context/AuthContext';
 import { useState } from 'react';
 
@@ -20,8 +21,14 @@ export default function Navbar() {
         <div className="flex justify-between h-16 px-4">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-xl font-light text-white">
-                sovra
+              <Link href="/" className="flex items-center">
+                <Image 
+                  src="/logo.png" 
+                  alt="Sovra Nations Logo" 
+                  width={32} 
+                  height={32} 
+                  className="h-8 w-auto" 
+                />
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-4">

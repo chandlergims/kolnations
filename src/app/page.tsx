@@ -15,7 +15,7 @@ export default function Home() {
       {/* Content */}
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h1 className="text-4xl font-mono text-[#4ade80] mb-2 flashing-text">sovra nations</h1>
-        <p className="text-xl text-[#4ade80] mb-16 typewriter">what happens when the trenches come together to colonize nations?</p>
+        <p className="text-xl text-[#4ade80] mb-16 typewriter">a national-scale experiment in digital colonization</p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Link href="/explore" className="bg-[#1a1520] hover:bg-[#2d2f39] text-[#4ade80] border border-[#4ade80] px-4 py-2 rounded text-sm font-mono transition-colors">
