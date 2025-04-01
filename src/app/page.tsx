@@ -14,7 +14,7 @@ export default function Home() {
       
       {/* Content */}
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h1 className="text-4xl font-mono text-[#4ade80] mb-2 flashing-text">kol nations</h1>
+        <h1 className="text-4xl font-mono text-[#4ade80] mb-2 flashing-text">sovra nations</h1>
         <p className="text-xl text-[#4ade80] mb-16 typewriter">what happens when the trenches come together to colonize nations?</p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">

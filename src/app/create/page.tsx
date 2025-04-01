@@ -535,7 +535,7 @@ export default function CreatePage() {
                     <h3 className="text-lg font-mono text-[#4ade80] truncate text-center">{nation.name}</h3>
                     {/* Share Button */}
                     <a 
-                      href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Join the #${nation.name.replace(/\s+/g, '')} nation on kolnations.com!`)}`}
+                      href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Join the #${nation.name.replace(/\s+/g, '')} nation on sovranations.app!`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="absolute top-1/2 right-1 transform -translate-y-1/2 flex items-center justify-center text-[#4ade80] hover:text-[#6ee7a0] transition-colors"

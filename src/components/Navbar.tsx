@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link href="/" className="text-xl font-light text-white">
-                Next.js App
+                sovra
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-4">
@@ -45,7 +45,24 @@ export default function Navbar() {
               </Link>
             </div>
           </div>
-          <div className="hidden sm:flex sm:items-center">
+          <div className="hidden sm:flex sm:items-center space-x-4">
+            <a 
+              href="https://x.com/sovranations" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#4ade80] hover:text-[#6ee7a0]"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="16" 
+                height="16" 
+                viewBox="0 0 24 24" 
+                fill="currentColor"
+                className="text-[#4ade80]"
+              >
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
             {isConnected ? (
               <div className="relative">
                 <button 
@@ -185,8 +202,8 @@ export default function Navbar() {
       
       {/* Error message */}
       {error && (
-        <div className="bg-white border border-gray-200 text-gray-700 px-4 py-3 rounded relative" role="alert">
-          <span className="block sm:inline">{error}</span>
+        <div className="bg-[#1a1520] bg-opacity-70 text-[#4ade80] px-2 py-1 text-sm text-center mx-auto max-w-xs rounded" role="alert">
+          {error}
         </div>
       )}
     </nav>

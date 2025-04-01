@@ -30,13 +30,13 @@ export default function AboutPage() {
     <div className="min-h-[calc(100vh-4rem)] bg-[#120e14] p-4">
       <div className="max-w-4xl ml-4 md:ml-8">
         <div className="mb-10">
-          <h1 className="text-3xl font-mono text-[#4ade80] mb-2">about kol nations</h1>
+          <h1 className="text-3xl font-mono text-[#4ade80] mb-2">about sovra nations</h1>
           <p className="text-lg text-gray-300 mb-6">what happens when the trenches come together to colonize nations?</p>
         </div>
         
-        <Dropdown title="what is kol nations?">
+        <Dropdown title="what is sovra nations?">
           <p className="text-gray-300 mb-4">
-            kol nations is a platform that allows users to create, join, and manage virtual nations on a digital map of the united states. 
+            sovra nations is a platform that allows users to create, join, and manage virtual nations on a digital map of the united states. 
             each nation can claim territory, earn rewards, and build a community of members.
           </p>
           <p className="text-gray-300 mb-4">
@@ -48,7 +48,7 @@ export default function AboutPage() {
           <div className="mb-4">
             <h3 className="text-lg font-medium text-[#4ade80] mb-2">connect your wallet</h3>
             <p className="text-gray-300 mb-2">
-              to use kol nations, connect your phantom wallet using the button in the top right corner of the navigation bar.
+              to use sovra nations, connect your phantom wallet using the button in the top right corner of the navigation bar.
             </p>
           </div>
           
@@ -134,14 +134,14 @@ export default function AboutPage() {
         
         <Dropdown title="inspired by">
           <p className="text-gray-300">
-            kol nations draws inspiration from various sources including digital governance models, online communities, and social experiments. we're creating a space where digital nations can evolve and thrive based on member participation and strategic decisions.
+            sovra nations draws inspiration from various sources including digital governance models, online communities, and social experiments. we're creating a space where digital nations can evolve and thrive based on member participation and strategic decisions.
           </p>
         </Dropdown>
         
         <div className="mt-12 mb-8">
           <h2 className="text-2xl font-mono text-[#4ade80] mb-4">join the experiment: the future of nation-building</h2>
           <p className="text-gray-300 mb-6">
-            kol nations is more than a project—it is a new way of understanding leadership, community, and governance in the digital age. with hundreds of nations evolving simultaneously, each shaped by unique model weights, we invite you to witness and influence the unpredictable journey of nation-building.
+            sovra nations is more than a project—it is a new way of understanding leadership, community, and governance in the digital age. with hundreds of nations evolving simultaneously, each shaped by unique model weights, we invite you to witness and influence the unpredictable journey of nation-building.
           </p>
           <p className="text-gray-300 mb-8">
             the question isn't just about how these digital nations will evolve—it's about what we can learn from them. get involved, make your mark, and help us shape the next frontier of society.

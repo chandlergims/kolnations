@@ -498,7 +498,7 @@ export default function ExplorePage() {
         {/* Interactive Map */}
         <div className="bg-[#120e14] rounded-lg p-4 mb-6">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-xl font-mono text-[#4ade80]">kol nations territory map</h2>
+            <h2 className="text-xl font-mono text-[#4ade80]">sovra nations territory map</h2>
             
             {/* Map Reset Timer */}
             <div className="bg-[#120e14] border border-[#4ade80] rounded p-3">

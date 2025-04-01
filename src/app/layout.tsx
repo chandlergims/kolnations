@@ -11,8 +11,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js App",
-  description: "A Next.js application with Phantom wallet authentication",
+  title: "Sovra Nations",
+  description: "Create, join, and manage virtual nations on a digital map of the United States",
 };
 
 export default function RootLayout({
