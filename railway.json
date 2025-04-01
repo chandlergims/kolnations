@@ -1,0 +1,5 @@
+{
+  "build": {
+    "command": "NEXT_PRIVATE_SWCRUST=true npm run build"
+  }
+}
